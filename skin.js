@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.8/17956
 // Filename: simplex_garden.ggsk
-// Generated 2020-11-15T21:58:01
+// Generated 2020-11-15T22:10:41
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -14820,7 +14820,7 @@ function pano2vrSkin(player,base) {
 		els=me._config_button__img=document.createElement('img');
 		els.className='ggskin ggskin_config_button';
 		hs='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QHSaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA1LjYuMCI+CiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgIHhtcDpNZXRhZGF0YURhdGU9IjIwMj'+
-			'AtMTEtMTVUMjE6NTg6MDErMDI6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDIwLTExLTE1VDIxOjU4OjAxKzAyOjAwIgogICB4bXA6Q3JlYXRvclRvb2w9IlBhbm8yVlIgNi4xLjgiLz4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz7/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAAdACADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcI'+
+			'AtMTEtMTVUMjI6MTA6NDErMDI6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDIwLTExLTE1VDIyOjEwOjQxKzAyOjAwIgogICB4bXA6Q3JlYXRvclRvb2w9IlBhbm8yVlIgNi4xLjgiLz4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz7/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAAdACADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcI'+
 			'CQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiI'+
 			'mKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBKKBR60AGPeijtSUAKKKSigBe1JRRQB//Z';
 		els.setAttribute('src',hs);
@@ -15781,7 +15781,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow: hidden;';
 		hs+='overflow-y: auto;';
 		els.setAttribute('style',hs);
-		els.innerHTML="<br\/><br\/>Drag to look around!<br\/><br\/><br\/>Click these          to move.";
+		els.innerHTML="Hello there!<br\/><br\/><br\/>Drag to look around.<br\/><br\/><br\/>Click these          to move.";
 		el.appendChild(els);
 		me._info_text_body_1.ggIsActive=function() {
 			if ((this.parentNode) && (this.parentNode.ggIsActive)) {
@@ -15839,8 +15839,8 @@ function pano2vrSkin(player,base) {
 		el.appendChild(els);
 		el.ggSubElement = els;
 		el.ggId="hsImage_1";
-		el.ggDx=4;
-		el.ggDy=-2;
+		el.ggDx=8;
+		el.ggDy=22;
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
 		el.ggVisible=true;
 		el.className="ggskin ggskin_image ";
@@ -15932,7 +15932,7 @@ function pano2vrSkin(player,base) {
 		el.ggTextDiv=els;
 		el.ggId="info_title_1";
 		el.ggParameter={ rx:0,ry:0,a:0,sx:1,sy:1 };
-		el.ggVisible=true;
+		el.ggVisible=false;
 		el.className="ggskin ggskin_text ";
 		el.ggType='text';
 		hs ='';
@@ -15940,7 +15940,7 @@ function pano2vrSkin(player,base) {
 		hs+='left : 12px;';
 		hs+='position : absolute;';
 		hs+='top : 15px;';
-		hs+='visibility : inherit;';
+		hs+='visibility : hidden;';
 		hs+='width : 85%;';
 		hs+='pointer-events:auto;';
 		hs+='font-weight: bold;';
@@ -24915,7 +24915,7 @@ player.changeTiltLog(-0.5,true);
 	me.addSkin();
 	var style = document.createElement('style');
 	style.type = 'text/css';
-	style.appendChild(document.createTextNode('.ggskin { font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 14px;}'));
+	style.appendChild(document.createTextNode('.ggskin { font-family: "Montserrat", sans-serif; font-size: 14px;}'));
 	document.head.appendChild(style);
 	me._screentint.logicBlock_alpha();
 	me._tt_thumbnail_open0.logicBlock_text();
