@@ -20,6 +20,7 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node2}" distance="5.79855" tilt="-27.39" pan="-182.65" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="johannesdal hall&#xa;&#xa;Johannesdal Hal has enormous picture windows overlooking the majestic mountains surrounding Johannesdal 1207. The hall has seating for 200 guests with a dance floor." target="" url="" tilt="-4.54" pan="-176.74" id="Point02" skinid="ht_info" title="JOHANNESDAL HAL"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -34,7 +35,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-40">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="-174.26" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -47,6 +48,9 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node1}" distance="5.79855" tilt="-18.75" pan="2.55008" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node3}" distance="5.26177" tilt="-24.91" pan="100.54" id="Point03" skinid="ht_node" title=""/>
+      <hotspot description="johannesdal hall&#xa;&#xa;Johannesdal Hal has enormous picture windows overlooking the majestic mountains surrounding Johannesdal 1207. The hall has seating for 200 guests with a dance floor." target="" url="" tilt="-6.14" pan="-175.63" id="Point02" skinid="ht_info" title="JOHANNESDAL HAL"/>
+      <hotspot description="the ponds&#xa;&#xa;Our entrance garden with its two ponds filled with water lilies is the ideal place to receive your guests to Johannesdal Hal with welcoming drinks. It is a beautiful protected outdoor space and it leads directly into Johannesdal Hal." target="" url="" tilt="-17.16" pan="-175.24" id="Point04" skinid="ht_info" title="DIE VOORTUIN"/>
+      <hotspot description="" target="$fwd" url="{node5}" distance="12.9404" tilt="-24.43" pan="-175.407" id="Point05" skinid="ht_node" title=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -61,7 +65,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-50">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="-179.14" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -88,7 +92,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-46">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="177.25" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -100,8 +104,8 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node5}" distance="6.16007" tilt="-25.37" pan="-183.191" id="Point02" skinid="ht_node" title=""/>
-      <hotspot description="" target="$fwd" url="{node3}" distance="5.8773" tilt="0" pan="75.7749" id="Point01" skinid="ht_node" title=""/>
-      <hotspot description="" target="$fwd" url="{node15}" distance="8.12179" tilt="0" pan="91.9651" id="Point03" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node3}" distance="5.8773" tilt="1.32" pan="63.4449" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node15}" distance="8.12179" tilt="-6.42" pan="93.0451" id="Point03" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node7}" distance="9.85754" tilt="-9.73" pan="-181.63" id="Point04" skinid="ht_node" title=""/>
     </hotspots>
     <media/>
@@ -117,7 +121,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-42">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -130,6 +134,9 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node4}" distance="6.16007" tilt="-18.51" pan="-0.441167" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node7}" distance="3.70935" tilt="-15.66" pan="-179.526" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node2}" distance="12.9404" tilt="0" pan="3.27303" id="Point03" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node15}" distance="9.43546" tilt="-3.43" pan="77.961" id="Point04" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node10}" distance="6.63528" tilt="-3.77" pan="107.69" id="Point05" skinid="ht_node" title=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -144,7 +151,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-43">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -160,6 +167,7 @@
       <hotspot description="" target="$fwd" url="{node43}" distance="44.8986" tilt="0" pan="-184.331" id="Point03" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node5}" distance="5.95741" tilt="-20.61" pan="359.865" id="Point04" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node4}" distance="12.1129" tilt="-9.26" pan="-359.364" id="Point05" skinid="ht_node" title=""/>
+      <hotspot description="johannesdal hall&#xa;&#xa;Johannesdal Hal has enormous picture windows overlooking the majestic mountains surrounding Johannesdal 1207. The hall has seating for 200 guests with a dance floor." target="" url="" tilt="-7.59" pan="-177.91" id="Point05" skinid="ht_info" title="JOHANNESDAL HAL"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -174,7 +182,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-42">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -217,6 +225,7 @@
       <hotspot description="" target="$fwd" url="{node7}" distance="5.4805" tilt="-3.44" pan="-2.95415" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node11}" distance="3.41841" tilt="-11.47" pan="181.266" id="Point03" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node45}" distance="46.1327" tilt="0" pan="-76.3554" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node5}" distance="6.63528" tilt="0" pan="14.8605" id="Point04" skinid="ht_node" title=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -231,7 +240,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-42">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -248,6 +257,8 @@
       <hotspot description="" target="$fwd" url="{node10}" distance="3.41841" tilt="0" pan="-85.4238" id="Point04" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node13}" distance="6.13225" tilt="-12.98" pan="-178.294" id="Point05" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node17}" distance="7.75568" tilt="-6.22" pan="-178.23" id="Point06" skinid="ht_node" title=""/>
+      <hotspot description="cardamom secluded bedroom&#xa;&#xa;Kardamom is a romantic, cosy bedroom. Set apart from the other rooms, it has a balcony overlooking the magnificent mountains surrounding Johannesdal1207 and a small private outdoor pond." target="" url="" tilt="-1.51" pan="-265.37" id="Point07" skinid="ht_info" title="KARDAMOM BUITEKAMER"/>
+      <hotspot description="the lemon orchard&#xa;&#xa;This citrus garden terrace lies at the top end of the garden terraces leading down to the river at the far end of our property. It overlooks the magnificent mountains surrounding Johannesdal 1207. It is easily accessible from the main hall and is the perfect spot for prefunction drinks on a beautiful day.&#xa;For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager.&#xa;&#xa;" target="" url="" tilt="11.28" pan="0.91" id="Point08" skinid="ht_info" title="DIE SUURLEMOENBOORD"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -262,7 +273,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-44">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -290,7 +301,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -318,7 +329,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-40">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -345,7 +356,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -358,6 +369,7 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node14}" distance="4.80323" tilt="-15.01" pan="88.438" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node4}" distance="8.12179" tilt="0" pan="-87.0349" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node5}" distance="9.43546" tilt="0" pan="-102.899" id="Point03" skinid="ht_node" title=""/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -372,7 +384,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -384,10 +396,11 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node13}" distance="1.62436" tilt="-15.06" pan="-358.422" id="Point01" skinid="ht_node" title=""/>
-      <hotspot description="" target="$fwd" url="{node19}" distance="2.93257" tilt="-15.1" pan="-179.36" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node19}" distance="2.93257" tilt="-14.95" pan="-179.37" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node25}" distance="2.66139" tilt="-7.3" pan="-116.491" id="Point03" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node45}" distance="38.0153" tilt="0" pan="-73.914" id="Point04" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node12}" distance="4.02902" tilt="-3.73" pan="-358.79" id="Point05" skinid="ht_node" title=""/>
+      <hotspot description="the terraces&#xa;&#xa;Our two large garden terraces boast unsurpassable views. From both meticulously groomed terraces, there is an unobstructed view over the mountains surrounding Johannesdal 1207. Our terraced garden is the perfect space to have an open-air ceremony or early morning/late-afternoon outdoor function.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-11.65" pan="-200.42" id="Point06" skinid="ht_info" title="DIE TERASSE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -402,7 +415,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-40">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -416,6 +429,7 @@
       <hotspot description="" target="$fwd" url="{node17}" distance="2.93257" tilt="0" pan="5.84991" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node20}" distance="1.81098" tilt="-8.33" pan="-178.294" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node25}" distance="2.17724" tilt="-4.4" pan="-81.2402" id="Point03" skinid="ht_node" title=""/>
+      <hotspot description="terrace under the oak&#xa;&#xa;A massive old Oak tree towers over this enclosed space in our garden, a perfect area for pre/post function drinks. This area is directly linked to the Waterlelietuin and could be used in conjunction with it, creating space for an outdoor function for up to 100 people. For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="0.77" pan="-97.54" id="Point04" skinid="ht_info" title="ONDER DIE EIK TERASSE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -430,7 +444,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-42">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -458,7 +472,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-42">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -470,6 +484,7 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node20}" distance="1.80492" tilt="-1.15" pan="-357.524" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="the terraces&#xa;&#xa;Our two large garden terraces boast unsurpassable views. From both meticulously groomed terraces, there is an unobstructed view over the mountains surrounding Johannesdal 1207. Our terraced garden is the perfect space to have an open-air ceremony or early morning/late-afternoon outdoor function.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="8.93" pan="-357.08" id="Point02" skinid="ht_info" title="DIE TERASSE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -484,7 +499,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-42">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -523,6 +538,7 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node22}" distance="39.9405" tilt="-10.55" pan="0.426109" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="waterlily garden&#xa;&#xa;This small enclosed garden has a pavilion overlooking the lily ponds. It is a lovely area for pre-function drinks or smaller intimate outdoor gatherings.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-21.45" pan="-357.68" id="Point02" skinid="ht_info" title="WATERLELIETUIN"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -537,7 +553,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-44">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -549,9 +565,13 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node25}" distance="0.414876" tilt="-9.73" pan="45.8707" id="Point01" skinid="ht_node" title=""/>
-      <hotspot description="" target="$fwd" url="{node22}" distance="1.62565" tilt="0" pan="-174.372" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node22}" distance="1.62565" tilt="-10.74" pan="-181.422" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node35}" distance="55.1134" tilt="-5.13" pan="-46.7196" id="Point03" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node26}" distance="3.96433" tilt="-11.02" pan="-91.2482" id="Point04" skinid="ht_node" title=""/>
+      <hotspot description="waterlily garden&#xa;&#xa;This small enclosed garden has a pavilion overlooking the lily ponds. It is a lovely area for pre-function drinks or smaller intimate outdoor gatherings.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-0.22" pan="-180.61" id="Point05" skinid="ht_info" title="WATERLELIETUIN"/>
+      <hotspot description="" target="$fwd" url="{node38}" distance="48.5139" tilt="-7.27" pan="358.141" id="Point06" skinid="ht_node" title=""/>
+      <hotspot description="the blue room&#xa;&#xa;A reception area which can be used for small gatherings and is ideal for conferences for up to 100 attendees. This area will be utilised in case of bad weather to host pre-function cocktails or ceremonies.&#xa;It is available to rent to any of our clients who want their function to continue unhindered with music and dancing all night" target="" url="" tilt="0.51" pan="-1.52" id="Point07" skinid="ht_info" title="DIE BLOU KAMER"/>
+      <hotspot description="johannesdal hall&#xa;&#xa;Johannesdal Hal has enormous picture windows overlooking the majestic mountains surrounding Johannesdal 1207. The hall has seating for 200 guests with a dance floor." target="" url="" tilt="24.79" pan="-4.74" id="Point08" skinid="ht_info" title="JOHANNESDAL HAL"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -566,7 +586,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -580,6 +600,7 @@
       <hotspot description="" target="$fwd" url="{node24}" distance="0.414876" tilt="-9.68" pan="-141.319" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node19}" distance="2.17724" tilt="-4.28" pan="98.2998" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node17}" distance="2.66139" tilt="1.55" pan="66.4388" id="Point03" skinid="ht_node" title=""/>
+      <hotspot description="terrace under the oak&#xa;&#xa;A massive old Oak tree towers over this enclosed space in our garden, a perfect area for pre/post function drinks. This area is directly linked to the Waterlelietuin and could be used in conjunction with it, creating space for an outdoor function for up to 100 people. For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-7.64" pan="-121" id="Point04" skinid="ht_info" title="ONDER DIE EIK TERASSE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -594,7 +615,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-39">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -622,7 +643,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -639,6 +660,7 @@
       <hotspot description="" target="$fwd" url="{node34}" distance="52.3089" tilt="-5.48" pan="17.3665" id="Point04" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node30}" distance="6.00533" tilt="-7.19" pan="-125.762" id="Point05" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node31}" distance="6.98568" tilt="0" pan="-112.706" id="Point06" skinid="ht_node" title=""/>
+      <hotspot description="the breakfast terrace&#xa;Die Stoepkamer opens up onto Die Veranda facing the pool courtyard. It is the ideal area to have a small summer party or year-end functions. It is available to rent when we have no overnight guests." target="" url="" tilt="4.69" pan="-1.88" id="Point07" skinid="ht_info" title="DIE STOEP"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -653,7 +675,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -667,6 +689,7 @@
       <hotspot description="" target="$fwd" url="{node64}" distance="83.1579" tilt="-6.15" pan="-180.906" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node27}" distance="4.84204" tilt="-11.57" pan="-19.6449" id="Point03" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node34}" distance="47.8596" tilt="0" pan="-9.21634" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="waterlily suite&#xa;&#xa;The beautiful decoration for this suite was inspired by the waterlily ponds which it overlooks. It lives out onto a lovely, large, private verandah which leads out onto the pool courtyard." target="" url="" tilt="3.24" pan="-180.68" id="Point04" skinid="ht_info" title="WATERLELIE SUITE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -708,7 +731,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-43">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="60" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -721,6 +744,7 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node30}" distance="1.40446" tilt="-16.96" pan="88.9699" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node27}" distance="6.98568" tilt="-5.3" pan="65.9241" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="blue disa cottage&#xa;&#xa;This beautiful cottage is filled with light. The decor is colorful, quirky and comfortable.&#xa;In Blou Disa cottage the main bedroom has an en-suite bathroom and shares a shower and toilet with its second bedroom.&#xa;The main bedroom opens up onto an enclosed courtyard with a magnificent view onto the surrounding Drakenstein mountains.&#xa;The kitchen, with a picture window overlooking the pool area, is very well equipped with a free standing stove, large fridge/freezer and a dish washer. It has ample space and has a dining table with seating for six guests.&#xa;The cottage has a beautiful, large lounge with a TV which leads out onto the pool courtyard garden on the one side and a private enclosed verandah on the other, with breathtaking views over the surrounding mountains." target="" url="" tilt="-6.64" pan="-178.49" id="Point03" skinid="ht_info" title="BLOU DISA HUISIE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -735,7 +759,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -748,6 +772,7 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node27}" distance="5.04441" tilt="-14.06" pan="8.66012" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node34}" distance="47.2739" tilt="-3.72" pan="20.1196" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="saffron suite&#xa;&#xa;This beautifully decorated suite has a seating area and a large comfortable, private verandah which leads out onto the pool courtyard." target="" url="" tilt="4.4" pan="-180.85" id="Point03" skinid="ht_info" title="SAFFRAAN SUITE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -762,7 +787,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-43">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -779,6 +804,8 @@
       <hotspot description="" target="$fwd" url="{node27}" distance="52.3089" tilt="-21.87" pan="-165.724" id="Point04" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node32}" distance="47.2739" tilt="-5.58" pan="-162.36" id="Point05" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node28}" distance="47.8596" tilt="-4.9" pan="-181.646" id="Point06" skinid="ht_node" title=""/>
+      <hotspot description="the breakfast terrace&#xa;&#xa;Die Stoepkamer opens up onto Die Veranda facing the pool courtyard. It is the ideal area to have a small summer party or year-end functions. It is available to rent when we have no overnight guests." target="" url="" tilt="-21.74" pan="-45.2" id="Point07" skinid="ht_info" title="DIE STOEP"/>
+      <hotspot description="the reading room&#xa;&#xa;This is a comfortable area with a well equipped and well stocked, galley type kitchen where our overnight guests will be able to have their breakfast. Overnight guests could host a small pre/post event here for up to 20 friends at no additional cost." target="" url="" tilt="-9.3" pan="-356.84" id="Point08" skinid="ht_info" title="DIE STOEPKAMER"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -793,7 +820,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -809,6 +836,7 @@
       <hotspot description="" target="$fwd" url="{node26}" distance="57.8029" tilt="-10.22" pan="193.789" id="Point03" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node38}" distance="12.8881" tilt="-16.73" pan="87.8154" id="Point05" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node24}" distance="55.1134" tilt="0" pan="134.39" id="Point04" skinid="ht_node" title=""/>
+      <hotspot description="the blue room&#xa;&#xa;A reception area which can be used for small gatherings and is ideal for conferences for up to 100 attendees. This area will be utilised in case of bad weather to host pre-function cocktails or ceremonies.&#xa;It is available to rent to any of our clients who want their function to continue unhindered with music and dancing all night" target="" url="" tilt="-0.41" pan="-271.19" id="Point06" skinid="ht_info" title="DIE BLOU KAMER"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -823,7 +851,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-50">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -835,6 +863,10 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node34}" distance="14.3675" tilt="-14.11" pan="104.875" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="the reading room&#xa;&#xa;This is a comfortable area with a well equipped and well stocked, galley type kitchen where our overnight guests will be able to have their breakfast. Overnight guests could host a small pre/post event here for up to 20 friends at no additional cost." target="" url="" tilt="-6.28" pan="-303.87" id="Point02" skinid="ht_info" title="DIE STOEPKAMER"/>
+      <hotspot description="blue disa cottage&#xa;&#xa;This beautiful cottage is filled with light. The decor is colorful, quirky and comfortable.&#xa;In Blou Disa cottage the main bedroom has an en-suite bathroom and shares a shower and toilet with its second bedroom.&#xa;The main bedroom opens up onto an enclosed courtyard with a magnificent view onto the surrounding Drakenstein mountains.&#xa;The kitchen, with a picture window overlooking the pool area, is very well equipped with a free standing stove, large fridge/freezer and a dish washer. It has ample space and has a dining table with seating for six guests.&#xa;The cottage has a beautiful, large lounge with a TV which leads out onto the pool courtyard garden on the one side and a private enclosed verandah on the other, with breathtaking views over the surrounding mountains." target="" url="" tilt="0.11" pan="-162.25" id="Point03" skinid="ht_info" title="BLOU DISA HUISIE"/>
+      <hotspot description="saffron suite&#xa;&#xa;This beautifully decorated suite has a seating area and a large comfortable, private verandah which leads out onto the pool courtyard." target="" url="" tilt="-1.65" pan="-184" id="Point03" skinid="ht_info" title="SAFFRAAN SUITE"/>
+      <hotspot description="waterlily suite&#xa;&#xa;The beautiful decoration for this suite was inspired by the waterlily ponds which it overlooks. It lives out onto a lovely, large, private verandah which leads out onto the pool courtyard." target="" url="" tilt="-1.43" pan="-200.62" id="Point03" skinid="ht_info" title="WATERLELIE SUITE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -849,7 +881,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-31">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -876,7 +908,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -888,6 +920,8 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node35}" distance="12.8881" tilt="-8.72" pan="-105.195" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node24}" distance="48.5139" tilt="0" pan="-175.189" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="the blue room&#xa;&#xa;A reception area which can be used for small gatherings and is ideal for conferences for up to 100 attendees. This area will be utilised in case of bad weather to host pre-function cocktails or ceremonies.&#xa;It is available to rent to any of our clients who want their function to continue unhindered with music and dancing all night" target="" url="" tilt="-40.9" pan="-168.23" id="Point03" skinid="ht_info" title="DIE BLOU KAMER"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -902,7 +936,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -929,7 +963,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -956,7 +990,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -985,7 +1019,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1013,7 +1047,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1026,6 +1060,10 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node43}" distance="12.1533" tilt="-11.78" pan="-1.03831" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node47}" distance="32.7117" tilt="-2.45" pan="-91.6355" id="Point04" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node45}" distance="19.5762" tilt="-3.99" pan="47.8653" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="johannesdal hall&#xa;&#xa;Johannesdal Hal has enormous picture windows overlooking the majestic mountains surrounding Johannesdal 1207. The hall has seating for 200 guests with a dance floor." target="" url="" tilt="-7.24" pan="-352.43" id="Point03" skinid="ht_info" title="JOHANNESDAL HAL"/>
+      <hotspot description="terrace under the oak&#xa;&#xa;A massive old Oak tree towers over this enclosed space in our garden, a perfect area for pre/post function drinks. This area is directly linked to the Waterlelietuin and could be used in conjunction with it, creating space for an outdoor function for up to 100 people. For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-22.3" pan="-186.15" id="Point01" skinid="ht_info" title="ONDER DIE EIK TERASSE"/>
+      <hotspot description="waterlily garden&#xa;&#xa;This small enclosed garden has a pavilion overlooking the lily ponds. It is a lovely area for pre-function drinks or smaller intimate outdoor gatherings.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-11.7" pan="-184.54" id="Point01" skinid="ht_info" title="WATERLELIETUIN"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -1040,7 +1078,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-40">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1052,6 +1090,9 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node46}" distance="32.7117" tilt="-5.12" pan="88.8446" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="blue disa cottage&#xa;&#xa;This beautiful cottage is filled with light. The decor is colorful, quirky and comfortable.&#xa;In Blou Disa cottage the main bedroom has an en-suite bathroom and shares a shower and toilet with its second bedroom.&#xa;The main bedroom opens up onto an enclosed courtyard with a magnificent view onto the surrounding Drakenstein mountains.&#xa;The kitchen, with a picture window overlooking the pool area, is very well equipped with a free standing stove, large fridge/freezer and a dish washer. It has ample space and has a dining table with seating for six guests.&#xa;The cottage has a beautiful, large lounge with a TV which leads out onto the pool courtyard garden on the one side and a private enclosed verandah on the other, with breathtaking views over the surrounding mountains." target="" url="" tilt="-11.06" pan="-147.77" id="Point03" skinid="ht_info" title="BLOU DISA HUISIE"/>
+      <hotspot description="terrace under the oak&#xa;&#xa;A massive old Oak tree towers over this enclosed space in our garden, a perfect area for pre/post function drinks. This area is directly linked to the Waterlelietuin and could be used in conjunction with it, creating space for an outdoor function for up to 100 people. For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-11.01" pan="-238.51" id="Point01" skinid="ht_info" title="ONDER DIE EIK TERASSE"/>
+      <hotspot description="waterlily garden&#xa;&#xa;This small enclosed garden has a pavilion overlooking the lily ponds. It is a lovely area for pre-function drinks or smaller intimate outdoor gatherings.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-9.99" pan="-214.29" id="Point01" skinid="ht_info" title="WATERLELIETUIN"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -1066,7 +1107,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1088,14 +1129,14 @@
     <control lockedwheel="0" dblclickfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" sensitivity="8" contextfullscreen="1" hideabout="0" rubberband="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
   <panorama id="node49">
-    <input overlap="1" levelbias="0.400" levelingroll="0" width="1920" levelbiashidpi="1.000" levelingpitch="0" height="1920" leveltilesize="510" leveltileurl="tiles/node49/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <input overlap="1" levelbias="0.400" levelingroll="-1" width="1920" levelbiashidpi="1.000" levelingpitch="0" height="1920" leveltilesize="510" leveltileurl="tiles/node49/cf_%c/l_%l/c_%x/tile_%y.jpg">
       <level predecode="0" width="1920" preload="0" height="1920"/>
       <level predecode="0" width="960" preload="0" height="960"/>
       <level predecode="1" width="480" preload="1" height="480"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-47">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="-90" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1122,7 +1163,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-43">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="-90" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1148,7 +1189,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1162,6 +1203,7 @@
       <hotspot description="" target="$fwd" url="{node6}" distance="34.5352" tilt="-9.95" pan="91.8607" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node48}" distance="7.91461" tilt="-12.39" pan="-183.012" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node55}" distance="8.84825" tilt="-11.87" pan="-91.1391" id="Point03" skinid="ht_node" title=""/>
+      <hotspot description="the ponds&#xa;&#xa;Our entrance garden with its two ponds filled with water lilies is the ideal place to receive your guests to Johannesdal Hal with welcoming drinks. It is a beautiful protected outdoor space and it leads directly into Johannesdal Hal." target="" url="" tilt="-8.22" pan="-297.55" id="Point04" skinid="ht_info" title="DIE VOORTUIN"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -1169,14 +1211,14 @@
     <control lockedwheel="0" dblclickfullscreen="0" invertwheel="0" lockedkeyboardzoom="0" speedwheel="1" simulatemass="1" lockedmouse="0" lockedkeyboard="0" sensitivity="8" contextfullscreen="1" hideabout="0" rubberband="0" invertcontrol="1" contextprojections="0"/>
   </panorama>
   <panorama id="node54">
-    <input overlap="1" levelbias="0.400" levelingroll="0" width="1920" levelbiashidpi="1.000" levelingpitch="0" height="1920" leveltilesize="510" leveltileurl="tiles/node54/cf_%c/l_%l/c_%x/tile_%y.jpg">
+    <input overlap="1" levelbias="0.400" levelingroll="1" width="1920" levelbiashidpi="1.000" levelingpitch="0" height="1920" leveltilesize="510" leveltileurl="tiles/node54/cf_%c/l_%l/c_%x/tile_%y.jpg">
       <level predecode="0" width="1920" preload="0" height="1920"/>
       <level predecode="0" width="960" preload="0" height="960"/>
       <level predecode="1" width="480" preload="1" height="480"/>
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-38">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1205,7 +1247,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-42">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="-90" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1218,6 +1260,7 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node52}" distance="8.84825" tilt="-10.54" pan="90.6609" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node58}" distance="17.4327" tilt="-8.22" pan="-88.6133" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="silver tree suite&#xa;&#xa;Our elegant Silwerboom-Suite is totally private and consists of a very spacious bedroom which opens out onto a private courtyard with a verandah and a small plunge pool." target="" url="" tilt="-0.29" pan="-72.9" id="Point03" skinid="ht_info" title="SILWERBOOM SUITE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -1271,6 +1314,7 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node57}" distance="4.18737" tilt="-17.67" pan="-1.87013" id="Point02" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node55}" distance="17.4327" tilt="-20.95" pan="113.867" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="silver tree suite&#xa;&#xa;Our elegant Silwerboom-Suite is totally private and consists of a very spacious bedroom which opens out onto a private courtyard with a verandah and a small plunge pool." target="" url="" tilt="1.16" pan="-1.39" id="Point03" skinid="ht_info" title="SILWERBOOM SUITE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -1311,7 +1355,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="90" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1324,6 +1368,7 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node11}" distance="43.1867" tilt="-29.9" pan="-107.516" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node59}" distance="3.92744" tilt="-28.76" pan="124.582" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="cardamom secluded bedroom&#xa;&#xa;Kardamom is a romantic, cosy bedroom. Set apart from the other rooms, it has a balcony overlooking the magnificent mountains surrounding Johannesdal1207 and a small private outdoor pond." target="" url="" tilt="-22.57" pan="-268.84" id="Point03" skinid="ht_info" title="KARDAMOM BUITEKAMER"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -1338,7 +1383,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="39">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="180" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1349,7 +1394,8 @@
     <hotspots width="180" wordwrap="1" height="20">
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
-      <hotspot description="" target="$fwd" url="{node64}" distance="5.46127" tilt="-14.45" pan="104.305" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="" target="$fwd" url="{node64}" distance="5.46127" tilt="-15.06" pan="106.915" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="waterlily suite&#xa;&#xa;The beautiful decoration for this suite was inspired by the waterlily ponds which it overlooks. It lives out onto a lovely, large, private verandah which leads out onto the pool courtyard." target="" url="" tilt="-5.81" pan="-253" id="Point02" skinid="ht_info" title="WATERLELIE SUITE"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -1364,7 +1410,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-39">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="145" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1377,6 +1423,7 @@
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node28}" distance="83.1579" tilt="-15.17" pan="2.75465" id="Point01" skinid="ht_node" title=""/>
       <hotspot description="" target="$fwd" url="{node63}" distance="5.46127" tilt="-13.11" pan="-156.665" id="Point02" skinid="ht_node" title=""/>
+      <hotspot description="waterlily garden&#xa;&#xa;This small enclosed garden has a pavilion overlooking the lily ponds. It is a lovely area for pre-function drinks or smaller intimate outdoor gatherings.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." target="" url="" tilt="-6.02" pan="-261.94" id="Point03" skinid="ht_info" title="WATERLELIETUIN"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
@@ -1391,7 +1438,7 @@
       <preview color="0x808080" strip="1"/>
     </input>
     <view fovmode="0" pannorth="-45">
-      <start fov="70" tilt="0" pan="0" projection="4"/>
+      <start fov="70" tilt="0" pan="-90" projection="4"/>
       <flyin fov="170" tilt="-90" pan="0" projection="9"/>
       <min fovpixel="2" tilt="-90" pan="0"/>
       <max scaletofit="1" fov="120" fovstereographic="270" tilt="90" pan="360" fovfisheye="360"/>
@@ -1403,6 +1450,8 @@
       <label textalpha="1" enabled="1" textcolor="0x000000" background="1" border="1" backgroundalpha="1" width="180" backgroundcolor="0xffffff" wordwrap="1" borderalpha="1" height="20" borderradius="1" bordercolor="0x000000"/>
       <polystyle mode="0" backgroundalpha="0.25098" backgroundcolor="0x0000ff" borderalpha="1" handcursor="1" bordercolor="0x0000ff"/>
       <hotspot description="" target="$fwd" url="{node34}" distance="7.6035" tilt="-20.03" pan="137.971" id="Point01" skinid="ht_node" title=""/>
+      <hotspot description="This is a comfortable area with a well equipped and well stocked, galley type kitchen where our overnight guests will be able to have their breakfast. Overnight guests could host a small pre/post event here for up to 20 friends at no additional cost." target="" url="" tilt="-17.85" pan="-89.09" id="Point02" skinid="ht_info" title="DIE STOEPKAMER&#xa;the reading room"/>
+      <hotspot description="the breakfast terrace&#xa;&#xa;Die Stoepkamer opens up onto Die Veranda facing the pool courtyard. It is the ideal area to have a small summer party or year-end functions. It is available to rent when we have no overnight guests." target="" url="" tilt="-8.64" pan="-161.04" id="Point03" skinid="ht_info" title="DIE STOEP"/>
     </hotspots>
     <media/>
     <transition zoomin="0" enabled="1" zoomspeed="2" blendcolor="0x000000" type="crossdissolve" softedge="0" zoomfov="20" zoomout="0" blendtime="1" zoomoutpause="1"/>
