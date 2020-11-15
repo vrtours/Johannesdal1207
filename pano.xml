@@ -1,5 +1,43 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <tour start="node66" apprev="17956" appversion="6.1.8">
+  <panorama id="node66">
+    <input levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node66/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1280" height="1280" overlap="1">
+      <level predecode="0" preload="0" width="1280" height="1280"/>
+      <level predecode="0" preload="0" width="640" height="640"/>
+      <level predecode="1" preload="1" width="320" height="320"/>
+      <preview color="0x808080" strip="1"/>
+    </input>
+    <view fovmode="0" pannorth="-43">
+      <start tilt="-70.3" fov="70" pan="-167.39" projection="4"/>
+      <flyin tilt="-90" fov="170" pan="170" projection="9"/>
+      <min tilt="-90" pan="0" fovpixel="2"/>
+      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360" pan="360"/>
+    </view>
+    <userdata customnodeid="" source="" description="" datetime="15/11/2020 16:45" nodeid="node66" author="" longitude="18.95282562" title="Overview" copyright="" comment="" tags="PANORAMA" latitude="-33.90448072" heading="-43" info="">
+      <mapcoords y_floorplan_percent="77.6778" mapid="FloorPlan01" x="0.789642" y="-1.31836" x_floorplan_percent="46.5257"/>
+    </userdata>
+    <hotspots width="180" height="20" wordwrap="1">
+      <label enabled="1" bordercolor="0x000000" border="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textcolor="0x000000" height="20" background="1" textalpha="1" borderalpha="1" wordwrap="1"/>
+      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0"/>
+      <hotspot target="" id="Point01" description="" tilt="-86.32" title="Arrival" distance="11.7681" skinid="ht_node" pan="-195.25" url="{node1}"/>
+      <hotspot target="" id="Point02" description="johannesdal hall&#xa;&#xa;Johannesdal Hal has enormous picture windows overlooking the majestic mountains surrounding Johannesdal 1207. The hall has seating for 200 guests with a dance floor." tilt="-62.22" title="JOHANNESDAL HAL" skinid="ht_info" pan="-181.21" url=""/>
+      <hotspot target="" id="Point02" description="silver tree suite&#xa;&#xa;Our elegant Silwerboom-Suite is totally private and consists of a very spacious bedroom which opens out onto a private courtyard with a verandah and a small plunge pool." tilt="-64.27" customimage="media/night_shelter-white-48dp.svg" customimagewidth="30" customimageheight="30" fov="10" distance3D="171.451" use3D="0" title="SILWERBOOM SUITE" skinid="ht_info" pan="-117.4" url=""/>
+      <hotspot target="" id="Point02" description="the ponds&#xa;&#xa;Our entrance garden with its two ponds filled with water lilies is the ideal place to receive your guests to Johannesdal Hal with welcoming drinks. It is a beautiful protected outdoor space and it leads directly into Johannesdal Hal." tilt="-76.96" title="DIE VOORTUIN" skinid="ht_info" pan="-184.47" url=""/>
+      <hotspot target="" id="Point02" description="the lemon orchards&#xa;&#xa;This citrus garden terrace lies at the top end of the garden terraces leading down to the river at the far end of our property. It overlooks the magnificent mountains surrounding Johannesdal 1207. It is easily accessible from the main hall and is the perfect spot for prefunction drinks on a beautiful day.&#xa;For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager." tilt="-66.82" title="DIE SUURLEMOENBOORD" skinid="ht_info" pan="-243.24" url=""/>
+      <hotspot target="" id="Point02" description="the terraces&#xa;&#xa;Our two large garden terraces boast unsurpassable views. From both meticulously groomed terraces, there is an unobstructed view over the mountains surrounding Johannesdal 1207. Our terraced garden is the perfect space to have an open-air ceremony or early morning/late-afternoon outdoor function.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." tilt="-49.51" title="DIE TERASSE" skinid="ht_info" pan="-207.75" url=""/>
+      <hotspot target="" id="Point02" description="terrace under the oak&#xa;&#xa;A massive old Oak tree towers over this enclosed space in our garden, a perfect area for pre/post function drinks. This area is directly linked to the Waterlelietuin and could be used in conjunction with it, creating space for an outdoor function for up to 100 people. For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager." tilt="-53.85" title="ONDER DIE EIK TERASSE" skinid="ht_info" pan="-181.36" url=""/>
+      <hotspot target="" id="Point02" description="waterlily garden&#xa;&#xa;This small enclosed garden has a pavilion overlooking the lily ponds. It is a lovely area for pre-function drinks or smaller intimate outdoor gatherings.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." tilt="-46.88" title="WATERLELIETUIN" skinid="ht_info" pan="-181.81" url=""/>
+      <hotspot target="" id="Point02" description="cardamom secluded bedroom&#xa;&#xa;Kardamom is a romantic, cosy bedroom. Set apart from the other rooms, it has a balcony overlooking the magnificent mountains surrounding Johannesdal1207 and a small private outdoor pond." tilt="-57.42" customimage="media/night_shelter-white-48dp.svg" customimagewidth="30" customimageheight="30" fov="10" distance3D="171.451" use3D="0" title="KARDAMOM BUITEKAMER" skinid="ht_info" pan="-244.07" url=""/>
+      <hotspot target="" id="Point02" description="blue disa cottage&#xa;&#xa;This beautiful cottage is filled with light. The decor is colorful, quirky and comfortable.&#xa;In Blou Disa cottage the main bedroom has an en-suite bathroom and shares a shower and toilet with its second bedroom.&#xa;The main bedroom opens up onto an enclosed courtyard with a magnificent view onto the surrounding Drakenstein mountains.&#xa;The kitchen, with a picture window overlooking the pool area, is very well equipped with a free standing stove, large fridge/freezer and a dish washer. It has ample space and has a dining table with seating for six guests.&#xa;The cottage has a beautiful, large lounge with a TV which leads out onto the pool courtyard garden on the one side and a private enclosed verandah on the other, with breathtaking views over the surrounding mountains." tilt="-43.94" customimage="media/night_shelter-white-48dp.svg" customimagewidth="30" customimageheight="30" fov="10" distance3D="171.451" use3D="0" title="BLOU DISA HUISIE" skinid="ht_info" pan="-158.24" url=""/>
+      <hotspot target="" id="Point02" description="saffron suite&#xa;&#xa;This beautifully decorated suite has a seating area and a large comfortable, private verandah which leads out onto the pool courtyard." tilt="-47.25" customimage="media/night_shelter-white-48dp.svg" customimagewidth="30" customimageheight="30" fov="10" distance3D="171.451" use3D="0" title="SAFFRAAN SUITE" skinid="ht_info" pan="-163.11" url=""/>
+      <hotspot target="" id="Point02" description="waterlily suite&#xa;&#xa;The beautiful decoration for this suite was inspired by the waterlily ponds which it overlooks. It lives out onto a lovely, large, private verandah which leads out onto the pool courtyard." tilt="-48.07" customimage="media/night_shelter-white-48dp.svg" customimagewidth="30" customimageheight="30" fov="10" distance3D="171.451" use3D="0" title="WATERLELIE SUITE" skinid="ht_info" pan="-168.75" url=""/>
+    </hotspots>
+    <media/>
+    <transition zoomin="0" blendtime="1" zoomfov="20" zoomout="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" softedge="0"/>
+    <flyintransition enabled="1" speed="1.50"/>
+    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
+    <control contextfullscreen="1" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" invertwheel="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" rubberband="0" contextprojections="0" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0"/>
+  </panorama>
   <panorama id="node1">
     <input levelingpitch="1" levelbias="0.400" levelbiashidpi="1.000" levelingroll="-1" leveltilesize="510" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1920" height="1920" overlap="1">
       <level predecode="0" preload="0" width="1920" height="1920"/>
@@ -13,7 +51,7 @@
       <min tilt="-90" pan="0" fovpixel="2"/>
       <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360" pan="360"/>
     </view>
-    <userdata customnodeid="" source="" description="" datetime="2020-10-21 09:43:26" nodeid="node1" author="" longitude="18.95270653" title="" copyright="Kandao" comment="" tags="KDOutput" latitude="-33.90444289" heading="-47" info="">
+    <userdata customnodeid="" source="" description="" datetime="2020-10-21 09:43:26" nodeid="node1" author="" longitude="18.95270653" title="Arrival" copyright="Kandao" comment="" tags="KDOutput" latitude="-33.90444289" heading="-47" info="">
       <mapcoords y_floorplan_percent="68.1703" mapid="FloorPlan01" x="0.779686" y="-1.157" x_floorplan_percent="45.9391"/>
     </userdata>
     <hotspots width="180" height="20" wordwrap="1">
@@ -47,7 +85,7 @@
     <hotspots width="180" height="20" wordwrap="1">
       <label enabled="1" bordercolor="0x000000" border="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textcolor="0x000000" height="20" background="1" textalpha="1" borderalpha="1" wordwrap="1"/>
       <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0"/>
-      <hotspot target="$fwd" id="Point01" description="" tilt="-18.75" title="" distance="5.79855" skinid="ht_node" pan="2.55008" url="{node1}"/>
+      <hotspot target="$fwd" id="Point01" description="" tilt="-18.75" title="Arrival" distance="5.79855" skinid="ht_node" pan="2.55008" url="{node1}"/>
       <hotspot target="$fwd" id="Point03" description="" tilt="-24.91" title="" distance="5.26177" skinid="ht_node" pan="100.54" url="{node3}"/>
       <hotspot target="" id="Point02" description="johannesdal hall&#xa;&#xa;Johannesdal Hal has enormous picture windows overlooking the majestic mountains surrounding Johannesdal 1207. The hall has seating for 200 guests with a dance floor." tilt="-6.14" title="JOHANNESDAL HAL" skinid="ht_info" pan="-175.63" url=""/>
       <hotspot target="" id="Point04" description="the ponds&#xa;&#xa;Our entrance garden with its two ponds filled with water lilies is the ideal place to receive your guests to Johannesdal Hal with welcoming drinks. It is a beautiful protected outdoor space and it leads directly into Johannesdal Hal." tilt="-17.16" title="DIE VOORTUIN" skinid="ht_info" pan="-175.24" url=""/>
@@ -241,7 +279,7 @@
     <control contextfullscreen="1" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" invertwheel="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" rubberband="0" contextprojections="0" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0"/>
   </panorama>
   <panorama id="node11">
-    <input levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="-1" leveltilesize="510" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1920" height="1920" overlap="1">
+    <input levelingpitch="-1" levelbias="0.400" levelbiashidpi="1.000" levelingroll="-1" leveltilesize="510" leveltileurl="tiles/node11/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1920" height="1920" overlap="1">
       <level predecode="0" preload="0" width="1920" height="1920"/>
       <level predecode="0" preload="0" width="960" height="960"/>
       <level predecode="1" preload="1" width="480" height="480"/>
@@ -1500,138 +1538,6 @@
       <hotspot target="$fwd" id="Point01" description="" tilt="-20.03" title="" distance="7.6035" skinid="ht_node" pan="137.971" url="{node34}"/>
       <hotspot target="" id="Point02" description="This is a comfortable area with a well equipped and well stocked, galley type kitchen where our overnight guests will be able to have their breakfast. Overnight guests could host a small pre/post event here for up to 20 friends at no additional cost." tilt="-17.85" title="DIE STOEPKAMER&#xa;the reading room" skinid="ht_info" pan="-89.09" url=""/>
       <hotspot target="" id="Point03" description="the breakfast terrace&#xa;&#xa;Die Stoepkamer opens up onto Die Veranda facing the pool courtyard. It is the ideal area to have a small summer party or year-end functions. It is available to rent when we have no overnight guests." tilt="-8.64" title="DIE STOEP" skinid="ht_info" pan="-161.04" url=""/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" blendtime="1" zoomfov="20" zoomout="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" softedge="0"/>
-    <flyintransition enabled="1" speed="1.50"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextfullscreen="1" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" invertwheel="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" rubberband="0" contextprojections="0" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0"/>
-  </panorama>
-  <panorama id="node66">
-    <input levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node66/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1280" height="1280" overlap="1">
-      <level predecode="0" preload="0" width="1280" height="1280"/>
-      <level predecode="0" preload="0" width="640" height="640"/>
-      <level predecode="1" preload="1" width="320" height="320"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view fovmode="0" pannorth="180">
-      <start tilt="-70.3" fov="70" pan="-167.39" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="170" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360" pan="360"/>
-    </view>
-    <userdata customnodeid="" source="" description="" datetime="15/11/2020 16:45" nodeid="node66" author="" longitude="" title="" copyright="" comment="" tags="PANORAMA" latitude="" heading="180" info=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" border="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textcolor="0x000000" height="20" background="1" textalpha="1" borderalpha="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0"/>
-      <hotspot target="" id="Point01" description="" tilt="-86.32" title="" skinid="ht_node" pan="-195.25" url="{node1}"/>
-      <hotspot target="" id="Point02" description="johannesdal hall&#xa;&#xa;Johannesdal Hal has enormous picture windows overlooking the majestic mountains surrounding Johannesdal 1207. The hall has seating for 200 guests with a dance floor." tilt="-62.22" title="JOHANNESDAL HAL" skinid="ht_info" pan="-181.21" url=""/>
-      <hotspot target="" id="Point02" description="silver tree suite&#xa;&#xa;Our elegant Silwerboom-Suite is totally private and consists of a very spacious bedroom which opens out onto a private courtyard with a verandah and a small plunge pool." tilt="-64.27" title="SILWERBOOM SUITE" skinid="ht_info" pan="-117.4" url=""/>
-      <hotspot target="" id="Point02" description="the ponds&#xa;&#xa;Our entrance garden with its two ponds filled with water lilies is the ideal place to receive your guests to Johannesdal Hal with welcoming drinks. It is a beautiful protected outdoor space and it leads directly into Johannesdal Hal." tilt="-76.96" title="DIE VOORTUIN" skinid="ht_info" pan="-184.47" url=""/>
-      <hotspot target="" id="Point02" description="the lemon orchards&#xa;&#xa;This citrus garden terrace lies at the top end of the garden terraces leading down to the river at the far end of our property. It overlooks the magnificent mountains surrounding Johannesdal 1207. It is easily accessible from the main hall and is the perfect spot for prefunction drinks on a beautiful day.&#xa;For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager." tilt="-66.82" title="DIE SUURLEMOENBOORD" skinid="ht_info" pan="-243.24" url=""/>
-      <hotspot target="" id="Point02" description="the terraces&#xa;&#xa;Our two large garden terraces boast unsurpassable views. From both meticulously groomed terraces, there is an unobstructed view over the mountains surrounding Johannesdal 1207. Our terraced garden is the perfect space to have an open-air ceremony or early morning/late-afternoon outdoor function.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." tilt="-49.51" title="DIE TERASSE" skinid="ht_info" pan="-207.75" url=""/>
-      <hotspot target="" id="Point02" description="terrace under the oak&#xa;&#xa;A massive old Oak tree towers over this enclosed space in our garden, a perfect area for pre/post function drinks. This area is directly linked to the Waterlelietuin and could be used in conjunction with it, creating space for an outdoor function for up to 100 people. For non-residential bookings, this area is only available under certain conditions to be discussed with our venue manager." tilt="-53.85" title="ONDER DIE EIK TERASSE" skinid="ht_info" pan="-181.36" url=""/>
-      <hotspot target="" id="Point02" description="waterlily garden&#xa;&#xa;This small enclosed garden has a pavilion overlooking the lily ponds. It is a lovely area for pre-function drinks or smaller intimate outdoor gatherings.&#xa;For non-residential bookings this area is only available under certain conditions to be discussed with our venue manager." tilt="-46.88" title="WATERLELIETUIN" skinid="ht_info" pan="-181.81" url=""/>
-      <hotspot target="" id="Point02" description="cardamom secluded bedroom&#xa;&#xa;Kardamom is a romantic, cosy bedroom. Set apart from the other rooms, it has a balcony overlooking the magnificent mountains surrounding Johannesdal1207 and a small private outdoor pond." tilt="-57.42" title="KARDAMOM BUITEKAMER" skinid="ht_info" pan="-244.07" url=""/>
-      <hotspot target="" id="Point02" description="blue disa cottage&#xa;&#xa;This beautiful cottage is filled with light. The decor is colorful, quirky and comfortable.&#xa;In Blou Disa cottage the main bedroom has an en-suite bathroom and shares a shower and toilet with its second bedroom.&#xa;The main bedroom opens up onto an enclosed courtyard with a magnificent view onto the surrounding Drakenstein mountains.&#xa;The kitchen, with a picture window overlooking the pool area, is very well equipped with a free standing stove, large fridge/freezer and a dish washer. It has ample space and has a dining table with seating for six guests.&#xa;The cottage has a beautiful, large lounge with a TV which leads out onto the pool courtyard garden on the one side and a private enclosed verandah on the other, with breathtaking views over the surrounding mountains." tilt="-43.94" title="BLOU DISA HUISIE" skinid="ht_info" pan="-158.24" url=""/>
-      <hotspot target="" id="Point02" description="saffron suite&#xa;&#xa;This beautifully decorated suite has a seating area and a large comfortable, private verandah which leads out onto the pool courtyard." tilt="-47.25" title="SAFFRAAN SUITE" skinid="ht_info" pan="-163.11" url=""/>
-      <hotspot target="" id="Point02" description="waterlily suite&#xa;&#xa;The beautiful decoration for this suite was inspired by the waterlily ponds which it overlooks. It lives out onto a lovely, large, private verandah which leads out onto the pool courtyard." tilt="-48.07" title="WATERLELIE SUITE" skinid="ht_info" pan="-168.75" url=""/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" blendtime="1" zoomfov="20" zoomout="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" softedge="0"/>
-    <flyintransition enabled="1" speed="1.50"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextfullscreen="1" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" invertwheel="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" rubberband="0" contextprojections="0" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0"/>
-  </panorama>
-  <panorama id="node67">
-    <input levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node67/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1280" height="1280" overlap="1">
-      <level predecode="0" preload="0" width="1280" height="1280"/>
-      <level predecode="0" preload="0" width="640" height="640"/>
-      <level predecode="1" preload="1" width="320" height="320"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360" pan="360"/>
-    </view>
-    <userdata customnodeid="" source="" description="" datetime="15/11/2020 16:51" nodeid="node67" author="" longitude="" title="" copyright="" comment="" tags="PANORAMA" latitude="" heading="0" info=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" border="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textcolor="0x000000" height="20" background="1" textalpha="1" borderalpha="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0"/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" blendtime="1" zoomfov="20" zoomout="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" softedge="0"/>
-    <flyintransition enabled="1" speed="1.50"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextfullscreen="1" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" invertwheel="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" rubberband="0" contextprojections="0" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0"/>
-  </panorama>
-  <panorama id="node68">
-    <input levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node68/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1280" height="1280" overlap="1">
-      <level predecode="0" preload="0" width="1280" height="1280"/>
-      <level predecode="0" preload="0" width="640" height="640"/>
-      <level predecode="1" preload="1" width="320" height="320"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360" pan="360"/>
-    </view>
-    <userdata customnodeid="" source="" description="" datetime="15/11/2020 16:50" nodeid="node68" author="" longitude="" title="" copyright="" comment="" tags="PANORAMA" latitude="" heading="0" info=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" border="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textcolor="0x000000" height="20" background="1" textalpha="1" borderalpha="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0"/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" blendtime="1" zoomfov="20" zoomout="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" softedge="0"/>
-    <flyintransition enabled="1" speed="1.50"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextfullscreen="1" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" invertwheel="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" rubberband="0" contextprojections="0" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0"/>
-  </panorama>
-  <panorama id="node69">
-    <input levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node69/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1280" height="1280" overlap="1">
-      <level predecode="0" preload="0" width="1280" height="1280"/>
-      <level predecode="0" preload="0" width="640" height="640"/>
-      <level predecode="1" preload="1" width="320" height="320"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360" pan="360"/>
-    </view>
-    <userdata customnodeid="" source="" description="" datetime="15/11/2020 16:49" nodeid="node69" author="" longitude="" title="" copyright="" comment="" tags="PANORAMA" latitude="" heading="0" info=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" border="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textcolor="0x000000" height="20" background="1" textalpha="1" borderalpha="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0"/>
-    </hotspots>
-    <media/>
-    <transition zoomin="0" blendtime="1" zoomfov="20" zoomout="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" softedge="0"/>
-    <flyintransition enabled="1" speed="1.50"/>
-    <animation syncanimationwithvideo="0" useinautorotation="0" animsequence="Animation01"/>
-    <control contextfullscreen="1" hideabout="0" lockedkeyboardzoom="0" speedwheel="1" invertcontrol="1" invertwheel="0" simulatemass="1" sensitivity="8" lockedkeyboard="0" rubberband="0" contextprojections="0" lockedmouse="0" lockedwheel="0" dblclickfullscreen="0"/>
-  </panorama>
-  <panorama id="node70">
-    <input levelingpitch="0" levelbias="0.400" levelbiashidpi="1.000" levelingroll="0" leveltilesize="510" leveltileurl="tiles/node70/cf_%c/l_%l/c_%x/tile_%y.jpg" width="1280" height="1280" overlap="1">
-      <level predecode="0" preload="0" width="1280" height="1280"/>
-      <level predecode="0" preload="0" width="640" height="640"/>
-      <level predecode="1" preload="1" width="320" height="320"/>
-      <preview color="0x808080" strip="1"/>
-    </input>
-    <view fovmode="0" pannorth="0">
-      <start tilt="0" fov="70" pan="0" projection="4"/>
-      <flyin tilt="-90" fov="170" pan="0" projection="9"/>
-      <min tilt="-90" pan="0" fovpixel="2"/>
-      <max fovstereographic="270" tilt="90" scaletofit="1" fov="120" fovfisheye="360" pan="360"/>
-    </view>
-    <userdata customnodeid="" source="" description="" datetime="15/11/2020 16:47" nodeid="node70" author="" longitude="" title="" copyright="" comment="" tags="PANORAMA" latitude="" heading="0" info=""/>
-    <hotspots width="180" height="20" wordwrap="1">
-      <label enabled="1" bordercolor="0x000000" border="1" borderradius="1" backgroundcolor="0xffffff" backgroundalpha="1" width="180" textcolor="0x000000" height="20" background="1" textalpha="1" borderalpha="1" wordwrap="1"/>
-      <polystyle bordercolor="0x0000ff" backgroundcolor="0x0000ff" backgroundalpha="0.25098" handcursor="1" borderalpha="1" mode="0"/>
     </hotspots>
     <media/>
     <transition zoomin="0" blendtime="1" zoomfov="20" zoomout="0" enabled="1" zoomspeed="2" zoomoutpause="1" type="crossdissolve" blendcolor="0x000000" softedge="0"/>
