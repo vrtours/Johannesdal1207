@@ -1,7 +1,7 @@
 // Garden Gnome Software - Skin
 // Pano2VR 6.1.8/17956
 // Filename: simplex_garden.ggsk
-// Generated 2020-11-15T21:23:18
+// Generated 2020-11-15T21:37:53
 
 function pano2vrSkin(player,base) {
 	player.addVariable('opt_hotspot_preview', 2, true);
@@ -842,6 +842,9 @@ function pano2vrSkin(player,base) {
 				if (marker._div.ggActivate) marker._div.ggActivate();
 			}
 			me._map_mobile.ggLastActivMarker=marker;
+			}
+			if (!me._map_mobile.ggMapNotLoaded) {
+				me._map_mobile.ggCenterNode();
 			}
 			if (player.getMapType(me._map_mobile.ggMapId) == 'file') {
 				var coords = player.getNodeMapCoords(id, me._map_mobile.ggMapId);
@@ -9635,12 +9638,12 @@ function pano2vrSkin(player,base) {
 		}
 		elHorScrollBg = me._thumbnail_menu__horScrollBg = document.createElement('div');
 		el.appendChild(elHorScrollBg);
-		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 1024px; height: 15px; background-color: rgba(255,255,255,0.392157); pointer-events: auto;');
+		elHorScrollBg.setAttribute('style', 'position: absolute; left: 0px; bottom: 0px; visibility: hidden; width: 640px; height: 15px; background-color: rgba(255,255,255,0.392157); pointer-events: auto;');
 		elHorScrollBg.className='ggskin ggskin_scrollarea_hscrollbg';
 		elHorScrollFg = me._thumbnail_menu__horScrollFg = document.createElement('div');
 		elHorScrollBg.appendChild(elHorScrollFg);
 		elHorScrollFg.className='ggskin ggskin_scrollarea_hscrollfg';
-		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 1024px; height: 15px; background-color: rgba(255,255,255,1); pointer-events: auto;');
+		elHorScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 640px; height: 15px; background-color: rgba(255,255,255,1); pointer-events: auto;');
 		me._thumbnail_menu.ggScrollPosX = 0;
 		me._thumbnail_menu.ggScrollPosXPercent = 0.0;
 		elHorScrollFg.onmousedown = function(e) {
@@ -9740,7 +9743,7 @@ function pano2vrSkin(player,base) {
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
 		hs+='visibility : hidden;';
-		hs+='width : 80%;';
+		hs+='width : 50%;';
 		hs+='pointer-events:none;';
 		el.setAttribute('style',hs);
 		el.style[domTransform + 'Origin']='50% 50%';
@@ -10320,11 +10323,11 @@ function pano2vrSkin(player,base) {
 		}
 		elVertScrollBg = me._thumbnail_menu_mobile__vertScrollBg = document.createElement('div');
 		el.appendChild(elVertScrollBg);
-		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 576px; background-color: rgba(255,255,255,0.392157); pointer-events: auto;');
+		elVertScrollBg.setAttribute('style', 'position: absolute; right: 0px; top: 0px; visibility: hidden; width: 15px; height: 504px; background-color: rgba(255,255,255,0.392157); pointer-events: auto;');
 		elVertScrollBg.className='ggskin ggskin_scrollarea_vscrollbg';
 		elVertScrollFg = me._thumbnail_menu_mobile__vertScrollFg = document.createElement('div');
 		elVertScrollBg.appendChild(elVertScrollFg);
-		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 576px; background-color: rgba(255,255,255,1); pointer-events: auto;');
+		elVertScrollFg.setAttribute('style', 'position: absolute; left: 0px; top: 0px; visibility: hidden; width: 15px; height: 504px; background-color: rgba(255,255,255,1); pointer-events: auto;');
 		elVertScrollFg.className='ggskin ggskin_scrollarea_vscrollfg';
 		me._thumbnail_menu_mobile.ggScrollPosY = 0;
 		me._thumbnail_menu_mobile.ggScrollPosYPercent = 0.0;
@@ -10418,12 +10421,12 @@ function pano2vrSkin(player,base) {
 		el.ggType='scrollarea';
 		hs ='';
 		hs+='border : 1px solid rgba(0, 0, 0, 0);';
-		hs+='height : 80%;';
+		hs+='bottom : 100px;';
+		hs+='height : 70%;';
 		hs+='left : -10000px;';
 		hs+='opacity : 0;';
 		hs+='overflow : hidden;';
 		hs+='position : absolute;';
-		hs+='top : 10px;';
 		hs+='visibility : hidden;';
 		hs+='width : 90%;';
 		hs+='pointer-events:none;';
@@ -10448,15 +10451,15 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._thumbnail_menu_mobile.ggCurrentLogicStatePosition != newLogicStatePosition) {
 				me._thumbnail_menu_mobile.ggCurrentLogicStatePosition = newLogicStatePosition;
-				me._thumbnail_menu_mobile.style[domTransition]='left 0s, top 0s, opacity 500ms ease 0ms';
+				me._thumbnail_menu_mobile.style[domTransition]='left 0s, bottom 0s, opacity 500ms ease 0ms';
 				if (me._thumbnail_menu_mobile.ggCurrentLogicStatePosition == 0) {
 					this.ggDx = 0;
-					me._thumbnail_menu_mobile.style.top='1000px';
+					me._thumbnail_menu_mobile.style.bottom='1000px';
 					me._thumbnail_menu_mobile.ggUpdatePosition(true);
 				}
 				else {
 					me._thumbnail_menu_mobile.ggDx=0;
-					me._thumbnail_menu_mobile.style.top='10px';
+					me._thumbnail_menu_mobile.style.bottom='100px';
 					me._thumbnail_menu_mobile.ggUpdatePosition(true);
 				}
 			}
@@ -10476,7 +10479,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._thumbnail_menu_mobile.ggCurrentLogicStateVisible != newLogicStateVisible) {
 				me._thumbnail_menu_mobile.ggCurrentLogicStateVisible = newLogicStateVisible;
-				me._thumbnail_menu_mobile.style[domTransition]='left 0s, top 0s, opacity 500ms ease 0ms';
+				me._thumbnail_menu_mobile.style[domTransition]='left 0s, bottom 0s, opacity 500ms ease 0ms';
 				if (me._thumbnail_menu_mobile.ggCurrentLogicStateVisible == 0) {
 					me._thumbnail_menu_mobile.style.visibility=(Number(me._thumbnail_menu_mobile.style.opacity)>0||!me._thumbnail_menu_mobile.style.opacity)?'inherit':'hidden';
 					me._thumbnail_menu_mobile.ggVisible=true;
@@ -10503,7 +10506,7 @@ function pano2vrSkin(player,base) {
 			}
 			if (me._thumbnail_menu_mobile.ggCurrentLogicStateAlpha != newLogicStateAlpha) {
 				me._thumbnail_menu_mobile.ggCurrentLogicStateAlpha = newLogicStateAlpha;
-				me._thumbnail_menu_mobile.style[domTransition]='left 0s, top 0s, opacity 500ms ease 0ms';
+				me._thumbnail_menu_mobile.style[domTransition]='left 0s, bottom 0s, opacity 500ms ease 0ms';
 				if (me._thumbnail_menu_mobile.ggCurrentLogicStateAlpha == 0) {
 					me._thumbnail_menu_mobile.style.visibility=me._thumbnail_menu_mobile.ggVisible?'inherit':'hidden';
 					me._thumbnail_menu_mobile.style.opacity=1;
@@ -14820,7 +14823,7 @@ function pano2vrSkin(player,base) {
 		els=me._config_button__img=document.createElement('img');
 		els.className='ggskin ggskin_config_button';
 		hs='data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/4QHSaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wLwA8P3hwYWNrZXQgYmVnaW49Iu+7vyIgaWQ9Ilc1TTBNcENlaGlIenJlU3pOVGN6a2M5ZCI/Pgo8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA1LjYuMCI+CiA8cmRmOlJERiB4bWxuczpyZGY9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkvMDIvMjItcmRmLXN5bnRheC1ucyMiPgogIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iCiAgIHhtcDpNZXRhZGF0YURhdGU9IjIwMj'+
-			'AtMTEtMTVUMjE6MjM6MTgrMDI6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDIwLTExLTE1VDIxOjIzOjE4KzAyOjAwIgogICB4bXA6Q3JlYXRvclRvb2w9IlBhbm8yVlIgNi4xLjgiLz4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz7/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAAdACADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcI'+
+			'AtMTEtMTVUMjE6Mzc6NTMrMDI6MDAiCiAgIHhtcDpNb2RpZnlEYXRlPSIyMDIwLTExLTE1VDIxOjM3OjUzKzAyOjAwIgogICB4bXA6Q3JlYXRvclRvb2w9IlBhbm8yVlIgNi4xLjgiLz4KIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+Cjw/eHBhY2tldCBlbmQ9InIiPz7/2wBDAP//////////////////////////////////////////////////////////////////////////////////////2wBDAf//////////////////////////////////////////////////////////////////////////////////////wAARCAAdACADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcI'+
 			'CQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiI'+
 			'mKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwBKKBR60AGPeijtSUAKKKSigBe1JRRQB//Z';
 		els.setAttribute('src',hs);
@@ -15785,8 +15788,8 @@ function pano2vrSkin(player,base) {
 				activeNodeLatLng = L.latLng(0,0);
 			}
 			if (mapType == 'web') {
-				if (me._map_mobile.ggLastZoom == -1) me._map_mobile.ggLastZoom = 4;
-				var initZoom = keepZoom ? me._map_mobile.ggLastZoom : 4;
+				if (me._map_mobile.ggLastZoom == -1) me._map_mobile.ggLastZoom = 3;
+				var initZoom = keepZoom ? me._map_mobile.ggLastZoom : 3;
 				var maxZoom = ((mapDetails['mapprovider'] == 'openstreetmap') && (mapDetails['mapstyle'] == 'outdoors')) ? 17 : 18;
 				if (mapDetails['mapprovider'] == 'custom') maxZoom = mapDetails['mapmaxzoom'];
 				var mapOptions = {
@@ -15815,7 +15818,7 @@ function pano2vrSkin(player,base) {
 				}
 			} else if (mapType == 'file') {
 				if (me._map_mobile.ggLastZoom == -1) me._map_mobile.ggLastZoom = 7;
-				var initZoom = keepZoom ? me._map_mobile.ggLastZoom : 11;
+				var initZoom = keepZoom ? me._map_mobile.ggLastZoom : 10;
 				var mapOptions = {
 					zoom: initZoom,
 					minZoom: 7,
@@ -15883,9 +15886,9 @@ function pano2vrSkin(player,base) {
 					me._map_mobile.ggMap.fitBounds(me._map_mobile.ggMarkerBounds, {padding: [30, 30], animate: false});
 					} else {
 						if (player.getMapType(me._map_mobile.ggMapId) == 'web') {
-							me._map_mobile.ggMap.setZoom(4);
+							me._map_mobile.ggMap.setZoom(3);
 						} else {
-							me._map_mobile.ggMap.setZoom(7 + 4);
+							me._map_mobile.ggMap.setZoom(7 + 3);
 						}
 					}
 				} else {
@@ -15894,13 +15897,13 @@ function pano2vrSkin(player,base) {
 						if (force) {
 						me._map_mobile.ggMap.setZoom(18);
 						} else {
-							me._map_mobile.ggMap.setZoom(4);
+							me._map_mobile.ggMap.setZoom(3);
 						}
 					} else {
 						if (force) {
 						me._map_mobile.ggMap.setZoom(7);
 						} else {
-							me._map_mobile.ggMap.setZoom(7 + 4);
+							me._map_mobile.ggMap.setZoom(7 + 3);
 						}
 					}
 				}
